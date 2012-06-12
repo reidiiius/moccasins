@@ -1,4 +1,3 @@
-
  {
   "name": "Moccasins",
   "version": "0.1",
@@ -6,5 +5,5 @@
   "description": "Shoes app",
   "author": "Reid Netterville III",
   "default locale": "en",
-  "homepage url": "https://github.com/reidiiius", 
+  "homepage url": "https://github.com/reidiiius/moccasins", 
  }
