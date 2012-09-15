@@ -2,7 +2,7 @@
  {
   "name": "Moccasins",
   "version": "0.1",
-  "manifest_version": 2,
+  "manifest_version": 1,
   "description": "Shoes app",
   "author": "Reid Netterville III",
   "default locale": "en",
