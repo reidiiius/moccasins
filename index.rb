@@ -44,8 +44,8 @@ class PageList < Shoes
  url '/26nep', :_26nep 
  url '/25sun', :_25sun 
 def index 
- stack :width => "25%"  do 
-  background moccasin .. coral   
+ stack :width => "25%" do 
+  background moccasin
   para " \n ", 
   link(" Dominant\n", :click => "/dom"), 
   link(" Domocta \n", :click => "/domocta"), 
@@ -69,14 +69,14 @@ def index
   link(" +2-6 Ceres\n",  :click => "/26cer"), 
   link(" +2-6 Pluto\n", :click => "/26pluto"), 
   link(" +2+6 Neptune\n", :click => "/26nep"), 
-  :align => 'center',  
+  :align => 'center'
  end 
  stack :width => "50%" do 
-  background moccasin .. coral    
+  background moccasin
   image 'page/elements_tile.png', :bottom => 110, :left => 1   
  end 
  stack :width => "25%" do 
-  background moccasin ..coral  
+  background moccasin
   para " \n", 
   link(" Subdom \n",  :click => "/subdom"), 
   link(" Subocta \n", :click => "/subocta"), 
@@ -323,10 +323,4 @@ end
 end 
 
 Shoes.app :title => "Alchemy a la mode", :width => 684, :height => 546 
- 
-  
- 
-
-
-
 
