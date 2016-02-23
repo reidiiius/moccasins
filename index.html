@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="author" content="Reid Netterville III" />
+  <title>Moccasins</title>
+  <link rel="icon" href="page/32.png" type="image/png" />
+<style type="text/css">
+body {
+  margin:0;
+  padding:0;
+  background:url(page/nat_tile.jpg) center top fixed;
+}
+.attr {
+  width:320px;
+  margin:2em auto;
+  background-color:#fffff0;
+  text-align:center;
+  font-family:sans-serif;
+  font-size:14px;
+  color:Sienna
+}
+</style>
+</head>
+<body>
+  <section id="viewGallery"></section>
+<script type="application/javascript">
+"use strict";
+(function() {
+var Moccasins = new Object();
+
+  Moccasins.dom_tile = new Image(354, 528);
+  Moccasins.dom_tile.src = "page/dom_tile.jpg";
+  Moccasins.dom_tile.alt = "dom tile";
+
+  Moccasins.elements_tile = new Image(340, 340);
+  Moccasins.elements_tile.src = "page/elements_tile.png";
+  Moccasins.elements_tile.alt = "elements tile";
+
+  Moccasins.sub_tile = new Image(348, 516);
+  Moccasins.sub_tile.src = "page/sub_tile.jpg";
+  Moccasins.sub_tile.alt = "domocta tile";
+
+  viewGallery.style.textAlign = "center";
+  viewGallery.appendChild(Moccasins.sub_tile);
+  viewGallery.appendChild(Moccasins.elements_tile);
+  viewGallery.appendChild(Moccasins.dom_tile);
+
+  for (var i = 0; i < document.images.length; i++) {
+    document.images[i].style.margin = "1em 0.3em 0 0.3em";
+    document.images[i].style.border = "8px solid #deb887";
+  }
+})();
+</script>
+<footer id="notice">
+  <p class="attr">Copyright © 2012-2016 Reid Netterville III</p>
+</footer>
+</body>
+</html>
+
